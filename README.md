@@ -63,3 +63,13 @@ or follow logs with
 ```bash
 vagrant docker-logs -f
 ```
+
+# I want to try it out
+You can always clone this project and test with your own Vagrant/Docker:
+```bash
+git clone https://github.com/EHER/symfony-on-vagrant.git
+cd symfony-on-vagrant
+composer install
+vagrant up
+```
+then point your favorite browser to [http://localhost:8080](http://localhost:8080)
